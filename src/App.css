@@ -1,0 +1,62 @@
+.App{
+    margin:auto;
+    margin-top:30px;
+    padding:40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    width:300px;
+    height: fit-content;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input{
+    margin-top: 20px;
+}
+
+.input_input{
+    width: 100%;
+    border-radius:5px;
+    height: 35px;
+    font-size: 20px;
+}
+
+.input_input:hover{
+    background-color: antiquewhite;
+    height: 37px;
+}
+
+.btn_group{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn_style{
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    height: 35px;
+}
+
+.btn_style:hover{
+    background-color: aqua;
+}
+.result{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 50px;
+    font-size: 20px;
+    color: rgb(6, 2, 13);
+}
+
+
+
+@media (max-width:400px){
+    .App{
+        width: 200px;
+
+    }
+}
